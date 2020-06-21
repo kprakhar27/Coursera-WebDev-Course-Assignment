@@ -1,12 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+  
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+  
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     background-color: rgb(240, 240, 240);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     text-align: center;
+    margin: 4vh;
+    font-size: 26.25px;
 }
 section{
-    width: 30rem;
+    width: 100%;
     border: black solid 0.2rem;
     background-color: rgb(153, 153, 153);
 }
@@ -17,16 +37,33 @@ span{
     padding: 0.3rem 0rem;
     text-align: center;
     width: 10rem;
+    font-weight: bold;
+    font-size: 18.75px;
 }
 p{
     padding: 2rem 0.8rem 0.5rem 0.8rem;
+    font-size: 15px;
 }
 .chicken{
     background-color:rgb(213, 152, 152);
 }
 .beef{
     background-color:rgb(193, 69, 67);
+    color: white;
 }
 .sushi{
     background-color:rgb(229, 209, 152);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* For tablets: */
+    .col-50 {width: 50%;}
+    .col-100 {width: 100%;}
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-33 {width: 33.33%;}
+    h1{
+        margin-bottom: 10vh;
+    }
 }
