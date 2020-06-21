@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+section{
+    width: 30rem;
+    border: black solid 0.2rem;
+    background-color: rgb(153, 153, 153);
+}
+span{
+    float: right;
+    border-bottom: black solid 0.2rem;
+    border-left: black solid 0.2rem;
+    padding: 0.3rem 0rem;
+    text-align: center;
+    width: 10rem;
+}
+p{
+    padding: 2rem 0.8rem 0.5rem 0.8rem;
+}
+.chicken{
+    background-color:rgb(213, 152, 152);
+}
+.beef{
+    background-color:rgb(193, 69, 67);
+}
+.sushi{
+    background-color:rgb(229, 209, 152);
+}
