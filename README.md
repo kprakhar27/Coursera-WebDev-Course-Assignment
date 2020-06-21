@@ -1,6 +1,6 @@
 # Coursera - WebDev - Course - Assignments
 
-Assignment for the course - 
+Assignments for the course - 
 ["HTML, CSS, and Javascript for Web Developers" by Johns Hopkins University](https://www.coursera.org/learn/html-css-javascript-for-web-developers).
 
 ## Assignments
