@@ -6,5 +6,5 @@ Assignment for the course -
 ## Assignments
 
 ### Module 2
-* [Solution](https://kprakhar27.github.io/Coursera-WebDev-Course-Assignment/module2_solution/)
+* [Solution](https://kprakhar27.github.io/Coursera-WebDev-Course-Assignment/module2-solution/)
 * Deadline: June 29, 12:29 PM IST
